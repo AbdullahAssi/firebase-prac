@@ -34,7 +34,6 @@ const[imagelist , setimagelist] = useState([])
         id : doc.id
       }));
       setmovielist(filteredData)
-      console.log({filteredData})
     }
     catch(err)
     {
@@ -71,7 +70,6 @@ const[imagelist , setimagelist] = useState([])
             {
               title: moviename , releasedate : moviedate ,
               recievedoscar: movieoscar,
-              userid : auth?.currentUser?.uid
           })
           getmovielist() 
         }
@@ -79,6 +77,7 @@ const[imagelist , setimagelist] = useState([])
           console.error(Err)
         }
       }
+      console.log(SubmitMovie)
 
       const deletemovie = async (id) => {
         try {
