@@ -77,7 +77,6 @@ const[imagelist , setimagelist] = useState([])
           console.error(Err)
         }
       }
-      console.log(SubmitMovie)
 
       const deletemovie = async (id) => {
         try {

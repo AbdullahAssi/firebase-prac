@@ -39,7 +39,7 @@ img{
   align-items: center;
 }
 input{
-  width: 100%;
+  width: 90%;
   padding: 1rem;
 }
 a {
@@ -56,7 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   place-items: center;
-  min-width: 320px;
+  min-width: 300px;
   min-height: 100vh;
   background-color: #151515;
   color: white;
@@ -97,4 +97,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.success{
+  color: rgb(47, 255, 102);
+}
+.error{
+  color: rgb(210, 6, 6);
 }
